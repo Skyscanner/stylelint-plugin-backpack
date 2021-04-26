@@ -27,8 +27,8 @@
   "dependencies": {
     "bpk-tokens": "^32.0.5",
     "lodash": "^4.17.19",
-    "postcss-values-parser": "^3.2.1",
-    "stylelint": "^13.6.1",
+    "postcss-values-parser": "^5.0.0",
+    "stylelint": "^13.7.0",
     "tinycolor2": "^1.4.1"
   },
   "devDependencies": {
