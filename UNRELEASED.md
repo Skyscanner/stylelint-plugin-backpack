@@ -2,6 +2,14 @@
 
 > Place your changes below this line.
 
+**Changed:**
+
+Spring clean updates:
+  - Migrated to Backpack Foundations.
+  - Upgraded lodash to latest
+  - Updated postcss-values-parser to latest
+  - Updated tinycolor2 to latest
+
 ## How to write a good changelog entry
 
 1. Add 'Breaking', 'Added' or 'Fixed' in bold depending on if the change will be major, minor or patch according to [semver](semver.org).

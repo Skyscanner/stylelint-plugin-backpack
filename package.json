@@ -21,21 +21,22 @@
     "lint": "npm run lint:js",
     "lint:js": "eslint . --ext js",
     "lint:js:fix": "eslint . --ext js --fix",
-    "prettier": "prettier --config .prettierrc --write \"**/*.{js,jsx}\""
+    "prettier": "prettier --config .prettierrc --write \"**/*.{js,jsx}\"",
+    "prepare": "husky install"
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "bpk-tokens": "^32.0.5",
-    "lodash": "^4.17.19",
-    "postcss-values-parser": "^3.2.1",
+    "@skyscanner/bpk-foundations-web": "^4.0.0",
+    "lodash": "^4.17.21",
+    "postcss-values-parser": "^6.0.0",
     "stylelint": "^13.6.1",
-    "tinycolor2": "^1.4.1"
+    "tinycolor2": "^1.4.2"
   },
   "devDependencies": {
-    "eslint-config-skyscanner": "^6.0.0",
-    "husky": "^4.2.5",
+    "eslint-config-skyscanner": "^9.0.1",
+    "husky": "^7.0.2",
     "jest": "^26.0.1",
-    "lint-staged": "^10.2.11"
+    "lint-staged": "^11.1.2"
   },
   "peerDependencies": {
     "stylelint": "^13.0.0"
@@ -46,11 +47,6 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "lint-staged": {
     "!(LICENSE)*.md": [
