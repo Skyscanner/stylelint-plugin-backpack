@@ -1,6 +1,6 @@
 {
   "name": "@skyscanner/stylelint-plugin-backpack",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Stylelint configuration for Backpack development",
   "keywords": [
     "stylelint",
