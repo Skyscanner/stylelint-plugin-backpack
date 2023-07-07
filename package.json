@@ -36,7 +36,7 @@
     "husky": "^7.0.2",
     "jest": "^26.0.1",
     "lint-staged": "^11.1.2",
-    "stylelint": "^14.3.0"
+    "stylelint": "^15.10.1"
   },
   "peerDependencies": {
     "stylelint": "^14.0.0"
