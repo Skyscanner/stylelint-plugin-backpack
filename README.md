@@ -29,8 +29,7 @@ Like so:
 // .stylelintrc
 {
   "rules": {
-    "backpack/use-colors": true,
-    "backpack/use-tokens": true
+    "backpack/use-typography-styles": true,
   }
 }
 ```
