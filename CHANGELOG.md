@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## 3.0.0
+
+- Update from stylelint 14.3.0 to 15.10.2
+
 ## 2.0.1
 
 - Update from Node `^16.13.0` to `>=16.13.0` to allow versions higher than 16
