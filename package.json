@@ -29,7 +29,7 @@
     "@skyscanner/bpk-foundations-web": "^6.2.0",
     "lodash": "^4.17.21",
     "postcss-values-parser": "^6.0.0",
-    "tinycolor2": "^1.4.2"
+    "tinycolor2": "^1.6.0"
   },
   "devDependencies": {
     "@skyscanner/eslint-config-skyscanner": "^15.1.0",
