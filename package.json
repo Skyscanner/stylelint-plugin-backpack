@@ -28,7 +28,7 @@
   "dependencies": {
     "@skyscanner/bpk-foundations-web": "^6.2.0",
     "lodash": "^4.17.21",
-    "postcss-values-parser": "^6.0.0",
+    "postcss-values-parser": "^6.0.2",
     "tinycolor2": "^1.6.0"
   },
   "devDependencies": {
