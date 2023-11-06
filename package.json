@@ -35,7 +35,7 @@
     "@skyscanner/eslint-config-skyscanner": "^15.1.0",
     "husky": "^8.0.3",
     "jest": "^29.7.0",
-    "lint-staged": "^15.0.1",
+    "lint-staged": "^15.0.2",
     "stylelint": "^15.11.0"
   },
   "peerDependencies": {
