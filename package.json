@@ -32,7 +32,7 @@
     "tinycolor2": "^1.6.0"
   },
   "devDependencies": {
-    "@skyscanner/eslint-config-skyscanner": "^17.0.0",
+    "@skyscanner/eslint-config-skyscanner": "^17.1.0",
     "husky": "^8.0.3",
     "jest": "^29.7.0",
     "lint-staged": "^15.0.2",
