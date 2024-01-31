@@ -22,7 +22,8 @@
     "lint:js": "eslint . --ext js",
     "lint:js:fix": "eslint . --ext js --fix",
     "prettier": "prettier --config .prettierrc --write \"**/*.{js,jsx}\"",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint-staged": "lint-staged"
   },
   "license": "Apache-2.0",
   "dependencies": {
