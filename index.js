@@ -13,11 +13,15 @@
  limitations under the License.
  */
 
-/* eslint-disable global-require */
-module.exports = [
-  // These are known to cause false positives. They also need updates to work with Stylelint 15.
-  // KOA-6223 to fix or delete completely
-  // require('./lib/rules/use-colors'),
-  // require('./lib/rules/use-tokens'),
-  require('./lib/rules/use-typography-styles'),
+import useTypographyStylesPlugin from './lib/rules/use-typography-styles';
+// These are known to cause false positives. They also need updates to work with Stylelint 15+.
+// KOA-6223 to fix or delete completely
+
+// import useColorsPlugin from './lib/rules/use-colors';
+// import useTokensPlugin from './lib/rules/use-tokens';
+
+export default [
+  // useColorsPlugin,
+  // useTokensPlugin,
+  useTypographyStylesPlugin,
 ];
