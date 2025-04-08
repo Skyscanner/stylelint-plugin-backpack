@@ -33,10 +33,10 @@
     "tinycolor2": "^1.6.0"
   },
   "devDependencies": {
-    "@skyscanner/eslint-config-skyscanner": "^18.3.0",
+    "@skyscanner/eslint-config-skyscanner": "^20.0.0",
     "husky": "^9.1.5",
     "jest": "^29.7.0",
-    "lint-staged": "^15.2.2",
+    "lint-staged": "^15.5.0",
     "stylelint": "^15.11.0"
   },
   "peerDependencies": {
