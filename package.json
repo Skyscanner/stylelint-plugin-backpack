@@ -17,7 +17,7 @@
   },
   "scripts": {
     "pretest": "npx ensure-node-env@2.0.0 ",
-    "test": "npm run lint && jest --testPathPattern=\"^((?!use-colors/)(?!use-tokens/).)*$\"",
+    "test": "npm run lint && NODE_OPTIONS=--experimental-vm-modules jest --testPathPattern=\"^((?!use-colors/)(?!use-tokens/).)*$\"",
     "lint": "npm run lint:js",
     "lint:js": "eslint . --ext js",
     "lint:js:fix": "eslint . --ext js --fix",
