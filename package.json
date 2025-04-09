@@ -17,7 +17,7 @@
   },
   "scripts": {
     "pretest": "npx ensure-node-env@2.0.0 ",
-    "test": "npm run lint && jest --testPathPattern=\"^((?!use-colors/)(?!use-tokens/).)*$\"",
+    "test": "npm run lint && NODE_OPTIONS='--experimental-vm-modules' jest --testPathPattern=\"^((?!use-colors/)(?!use-tokens/).)*$\"",
     "lint": "npm run lint:js",
     "lint:js": "eslint . --ext js",
     "lint:js:fix": "eslint . --ext js --fix",
@@ -37,7 +37,7 @@
     "husky": "^9.1.5",
     "jest": "^29.7.0",
     "lint-staged": "^15.5.0",
-    "stylelint": "^15.11.0"
+    "stylelint": "^16.6.1"
   },
   "peerDependencies": {
     "stylelint": "^15.0.0"
