@@ -16,7 +16,6 @@
 import useTypographyStylesPlugin from './lib/rules/use-typography-styles';
 // These are known to cause false positives. They also need updates to work with Stylelint 15+.
 // KOA-6223 to fix or delete completely
-
 // import useColorsPlugin from './lib/rules/use-colors';
 // import useTokensPlugin from './lib/rules/use-tokens';
 
