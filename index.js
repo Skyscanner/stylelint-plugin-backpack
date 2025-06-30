@@ -13,7 +13,7 @@
  limitations under the License.
  */
 
-import useTypographyStylesPlugin from './lib/rules/use-typography-styles';
+import useTypographyStylesPlugin from './lib/rules/use-typography-styles/index.js';
 // These are known to cause false positives. They also need updates to work with Stylelint 15+.
 // KOA-6223 to fix or delete completely
 // import useColorsPlugin from './lib/rules/use-colors';

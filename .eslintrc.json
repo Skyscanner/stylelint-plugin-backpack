@@ -1,5 +1,6 @@
 {
-  "extends": [
-      "@skyscanner/eslint-config-skyscanner"
-  ]
+  "extends": ["@skyscanner/eslint-config-skyscanner"],
+  "rules": {
+    "import/extensions": ["error", "always"]
+  }
 }
